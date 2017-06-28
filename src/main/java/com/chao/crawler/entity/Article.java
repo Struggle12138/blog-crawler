@@ -40,4 +40,14 @@ public class Article {
     public void setArticleType(String articleType) {
         this.articleType = articleType;
     }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "articleUrl='" + articleUrl + '\'' +
+                ", articleTitle='" + articleTitle + '\'' +
+                ", articleSign='" + articleSign + '\'' +
+                ", articleType='" + articleType + '\'' +
+                '}';
+    }
 }

@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/
+blog-crawler.iml
+
+src/test/
+target/
